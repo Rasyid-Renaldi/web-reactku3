@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 
 import BlogPost from './container/BlogPost/BlogPost';
 
+ReactDOM.render(<BlogPost />, document.getElementById('content')); // parameter "content" untuk menampilkan image pada file BlogPost.jsx
+
 // function HelloComponent() {
 //   return (
 //     <div>
@@ -16,7 +18,7 @@ import BlogPost from './container/BlogPost/BlogPost';
 //   );
 // }
 // ReactDOM.render(<HelloComponent/>, document.getElementById('root'));
-ReactDOM.render(<BlogPost />, document.getElementById('content')); // parameter "content" untuk menampilkan image pada file BlogPost.jsx
+
 // ReactDOM.render(<BlogPost />, document.getElementById('root'));
 
 // Membuat class
